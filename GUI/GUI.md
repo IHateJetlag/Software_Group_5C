@@ -1,8 +1,8 @@
 コンパイル
-javac prototype/*.java
+javac GUI/*.java
 
 実行
-java prototype.App
+java GUI.App
 
 ログイン名　tomoya
 パスワード　tomoya
