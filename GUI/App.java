@@ -1,6 +1,6 @@
 package GUI;
 
-import GUi.LoginScreen;
+import GUI.LoginScreen;
 /**
  * アプリケーションを起動するためのメインクラス。
  * このクラスがエントリーポイントとなり、ログイン画面を呼び出す。
