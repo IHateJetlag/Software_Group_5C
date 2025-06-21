@@ -1,0 +1,16 @@
+[
+  {
+    "id": "8b9a3a13-aad6-465a-b7b9-bb756adbda82",
+    "sender": "ryuta",
+    "groupId": "9b8f194c-9ec1-4f43-b5fe-01f76d7d80a2",
+    "message": "hello",
+    "timestamp": "2025-06-21T21:27:00.746074"
+  },
+  {
+    "id": "b4ea5c53-d7c2-4ff5-b2d7-3bb85cd760fe",
+    "sender": "test",
+    "groupId": "9b8f194c-9ec1-4f43-b5fe-01f76d7d80a2",
+    "message": "hi",
+    "timestamp": "2025-06-21T21:30:06.38428"
+  }
+]

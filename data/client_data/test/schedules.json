@@ -1,0 +1,45 @@
+[
+  {
+    "id": "b6a44195-88a2-43ee-af79-a6ed45a34b0e",
+    "title": "meeting",
+    "description": "a",
+    "startTime": "2025-06-21T10:00:00",
+    "endTime": "2025-06-21T12:00:00",
+    "groupId": "9b8f194c-9ec1-4f43-b5fe-01f76d7d80a2",
+    "participants": [
+      "ryuta",
+      "test"
+    ],
+    "createdBy": "ryuta",
+    "createdAt": "2025-06-21T21:27:42.993245",
+    "isPrivate": false
+  },
+  {
+    "id": "b4d4eb4d-5980-4694-89d4-81dbb22ef1cf",
+    "title": "meeting2",
+    "description": "a",
+    "startTime": "2025-06-21T10:00:00",
+    "endTime": "2025-06-21T15:00:00",
+    "groupId": "9b8f194c-9ec1-4f43-b5fe-01f76d7d80a2",
+    "participants": [
+      "ryuta",
+      "test"
+    ],
+    "createdBy": "test",
+    "createdAt": "2025-06-21T21:30:40.009513",
+    "isPrivate": false
+  },
+  {
+    "id": "33f8ccf7-8746-4347-bf16-55cb86d8606c",
+    "title": "lunch",
+    "description": "a",
+    "startTime": "2025-06-22T10:00:00",
+    "endTime": "2025-06-22T12:00:00",
+    "participants": [
+      "test"
+    ],
+    "createdBy": "test",
+    "createdAt": "2025-06-21T21:31:45.8198",
+    "isPrivate": true
+  }
+]
