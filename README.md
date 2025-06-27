@@ -1,6 +1,8 @@
 # チャット、グループへのメンバー追加、脱退など以外はできます
 javac -cp "lib/gson-2.10.1.jar" -d bin server/*.java share/*.java client/gui/*.java client/*.java
+
 java -cp "bin:lib/gson-2.10.1.jar" client.gui.App
+
 java -cp "bin:lib/gson-2.10.1.jar" server.Server
 
 #進捗は以下
