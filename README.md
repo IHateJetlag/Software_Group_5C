@@ -1,4 +1,7 @@
-# GUIとSERVER、CLIENTを組み合わせ、階層の整理を行いました。まだ何も動きません
+# チャット、グループへのメンバー追加、脱退など以外はできます
+javac -cp "lib/gson-2.10.1.jar" -d bin server/*.java share/*.java client/gui/*.java client/*.java
+java -cp "bin:lib/gson-2.10.1.jar" client.gui.App
+java -cp "bin:lib/gson-2.10.1.jar" server.Server
 
 #進捗は以下
 step.txt
@@ -8,19 +11,21 @@ gamini https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221IBd80S8
 binはコンパイル結果
 
 ## client
-client.javaは前からあるやつ
-Connector.javaを最終的に使う　GUIとの繋ぎ
+client.javaは前からあるやつ<ー削除済み
+Connector.javaを使う　GUIとの繋ぎ
+
+PCを分けてテストするときは、Connector.java12行目のlocalhostを変更。
 
 ## gui 
 前のGUIと同じ
 
 ## lib 
 .jarファイルの置き場
+ここにデータが保存される
 
 ## server
 ClientHandler.java
-Server.jave
-今のところは作ってもらったやつと同じ。
+Server.java
 
 ## share
 LoginDateTimeAdapter.java
